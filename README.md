@@ -1,5 +1,5 @@
 # BPMDetector
-Implementation of a beat detection algorithm in Swift.
+Implementation of a tempo detection algorithm in Swift.
 
 <p align="center">
   <img src="images/screenshot.png" width="200">
