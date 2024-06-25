@@ -5,7 +5,7 @@ Implementation of a beat detection algorithm in Swift.
   <img src="images/screenshot.png" width="200">
 </p>
 
-The algorithm was originally proposed by Tsang Kei Man in his 2006 paper titled _Audio Analysis using the Discrete Wavelet Transform_.
+The algorithm was originally proposed by Tsang Kei Man in his 2006 paper titled _Tempo Extraction using the Discrete Wavelet Transform_.
 
 ### The Algorithm
 1. A discrete wavelet transform is applied to the audio data for four iterations to obtain the DWT coefficients, cD1 to cD4.
