@@ -60,7 +60,7 @@ struct Wavelet {
         
         let highPassFilter = wavelet.coefficients
         let filterLength = highPassFilter.count
-        var lowPassFilter = wavelet.coefficients.reversed().enumerated().map({ $0.0 % 2 != 0 ? -$0.1 : $0.1 })
+        let lowPassFilter = wavelet.coefficients.reversed().enumerated().map({ $0.0 % 2 != 0 ? -$0.1 : $0.1 })
         let pad = input + Array(input[..<(filterLength>>1)])
         
         // Convolve input with low-pass filter
